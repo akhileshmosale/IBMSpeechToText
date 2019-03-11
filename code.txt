@@ -33,6 +33,6 @@ with open(join(dirname(__file__),'audio-file2.flac'),
         content_type='audio/flac',
         recognize_callback=myRecognizeCallback,
         model='en-US_BroadbandModel',
-        keywords=['like'],
+        keywords=['colorado','tornado','sunday'],
         keywords_threshold=0.5,
         max_alternatives=3)
